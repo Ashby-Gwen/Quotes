@@ -1,0 +1,41 @@
+/* * {
+    border: 1px solid black;
+} */
+
+*{
+    transition: all .5s ease;
+}
+
+div {
+    padding: 10px;
+}
+.c-text {
+    text-align: center;
+}
+
+.d-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+}
+
+.box {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 0 4px (0,0,0,05);
+}
+
+.pastel-red {
+    background-color: #FF6961;
+}
+
+.pastel-blue {
+    background-color: #779ECB;
+}
